@@ -10,8 +10,8 @@ class GallagherAPIService {
 
     static let shared = GallagherAPIService()
 
-    private let baseURL = "https://192.168.0.114:8904/api"
-    private let apiKey = "C790-25F8-F270-39FB-3837-8570-88E2-4025"
+    private let baseURL = "https://<URL>:8904/api"
+    private let apiKey = "API-KEY"
 
     // MARK: - Shared URLSession with SSL Bypass
     private lazy var session: URLSession = {
